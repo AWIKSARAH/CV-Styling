@@ -2,8 +2,6 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-
-
 }
 body{
   background-color: rgb(255, 255, 255);
@@ -241,7 +239,7 @@ section:not(:last-child) p {
 }
 
 /*MEDIA*/
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   
   .content section {
     flex-basis: 100% !important;
@@ -291,7 +289,7 @@ section:not(:last-child) p {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
   header {
     padding: 20px 0;
