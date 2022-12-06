@@ -332,11 +332,7 @@ p{
     padding: -19px;
   }
   
-  hgroup>h1{
-    padding-bottom: 1px;
-  
-    margin: 0.6699999999999999em -3em;
-}
+
   header div figure {
     display: none;
   }
@@ -490,18 +486,4 @@ display: flex;
   .experience-date{
     margin-left: 9px;
   }
-  #contact .contacts  {
-    
-    margin-top: 45px;
-}
-#contact .contacts  {
-    
-  margin-top: 45px;
-}
-#contact .contacts .contact-facebook {
-  position: absolute;
-  top:1780px;
-}
-
-
 }
