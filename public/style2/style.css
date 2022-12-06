@@ -239,65 +239,6 @@ p{
 .experience>h4{
   color: darkcyan;
 }
-/*
-#competencies {
-  display: grid;
-  grid-template-areas: 
-  'h3 primary'
-  'h3 secondary'
-  ;
-  margin-bottom: 40px;
-  width: 50%;
-}
-
-
-
-#competencies .skills-primary div:first-child::after {
-  content: "\2605" "\2605" "\2605";
-}
-
-#competencies .skills-primary div:nth-child(2)::after {
-  content: "\2605" "\2605";
-}
-
-#competencies .skills-primary div:last-child::after {
-  content: "\2605";
-}
-
-
-#competencies .skills-secondary .skill {
-
-  color: #fff;
-  font-size: 12px;
-  content: "\2605" "\2605" "\2605" "\2605" "\2605";
-}
-
-#competencies .skills .skill span {
-  color: #fff;
-  content: "\2605""\2605""\2605";
-}
-
-#competencies .skills-secondary div:first-child::after {
-  color: #fff;
-  content: "\2605" "\2605" "\2605" "\2605" "\2605";
-}
-#competencies .skills .skill {
-  display: flex;
-  justify-content: space-between;
-  align-items:  center;
-  background-color: #088d8d;
-  padding: 8px;
-  color: #fff;
-  margin: 4px;
-  width: 120px;
-  margin-right: 31px;
-}
-
-#competencies .skills {
-  display: flex;
-  margin-left: 66px;
-}
-*/
 
 #competencies {
   display: grid;
@@ -426,7 +367,7 @@ p{
   
 
   #experiences h3 {
-    border-right: none;
+    border-right: 0;
     grid-area: h3;
     position: relative;
     margin-bottom: 20px;
@@ -517,7 +458,16 @@ p{
     margin-top: 25px !important;
     margin-left: 107px;
 }
+.skills-primary, .skills-secondary{
+  border-left:0cm;
+}
+.experience{
+  border-left: 0cm;
+}
 
+#hobbies ul {
+  border-left: 0px;
+}
   #hobbies h3 {
     margin-bottom: 15px;
   }
@@ -533,6 +483,9 @@ display: flex;
   }
   .experience-location {
     color: darkgray;
-    padding-right: 413px
+    margin-left: -313px;
+  }
+  .experience-date{
+    margin-left: 9px;
   }
 }
